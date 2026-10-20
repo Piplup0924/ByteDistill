@@ -1,0 +1,30 @@
+name: Question or issue
+description: Ask about ByteDistill or report a documentation or code issue.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The implementation is pending release. Please share only public or synthetic examples; remove credentials and private data from any logs or configuration.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Method
+        - Documentation
+        - Data preparation
+        - Code or evaluation
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Question or issue
+      description: Describe the question, or the expected and observed behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant context
+      description: Include a public reference, repository revision, or minimal example if applicable. Omit secrets and private infrastructure details.
