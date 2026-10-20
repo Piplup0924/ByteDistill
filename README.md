@@ -12,17 +12,7 @@ ByteDistill distills knowledge between language models with different tokenizers
 
 ## Release status
 
-This repository currently contains project documentation and the initial repository layout. **The implementation, training recipes, evaluation tools, and data-preparation scripts have not been released.** There is no runnable training or evaluation entry point yet.
-
-## Reported results
-
-The following results are reported in the paper; they have not been reproduced from this repository.
-
-| Setting | Reported result |
-| --- | --- |
-| GSM8K and MATH, Qwen3-8B → Gemma-2-2B | **49.27%** average zero-shot Pass@1; +5.40 percentage points over SFT and +1.78 over CTLS |
-| DialogSum, 1,500 student training examples | **38.65** ROUGE-L |
-| On-policy Countdown, three students | All three improve over their SFT initialization; mean accuracy is **64.31%**, compared with 63.48% for SFT initialization |
+Coming soon.
 
 ## Documentation
 
