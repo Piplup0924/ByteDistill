@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use ByteDistill in your research, please cite the paper below."
+title: "ByteDistill: Cross-Tokenizer Distillation via Chunk-wise Byte-Level Distribution Alignment"
+authors:
+  - family-names: Chen
+    given-names: Yang
+  - family-names: Yu
+    given-names: Xianqi
+  - family-names: Yao
+    given-names: Shaowei
+  - family-names: Lv
+    given-names: Fuyu
+  - family-names: Ou
+    given-names: Dan
+  - family-names: Tang
+    given-names: Haihong
+repository-code: "https://github.com/Piplup0924/ByteDistill"
+license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  title: "ByteDistill: Cross-Tokenizer Distillation via Chunk-wise Byte-Level Distribution Alignment"
+  authors:
+    - family-names: Chen
+      given-names: Yang
+    - family-names: Yu
+      given-names: Xianqi
+    - family-names: Yao
+      given-names: Shaowei
+    - family-names: Lv
+      given-names: Fuyu
+    - family-names: Ou
+      given-names: Dan
+    - family-names: Tang
+      given-names: Haihong
+  collection-title: "Advances in Neural Information Processing Systems"
+  year: 2026
