@@ -1,0 +1,33 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+.DS_Store
+.idea/
+.vscode/
+
+# Generated artifacts and locally downloaded assets
+data/
+checkpoints/
+outputs/
+logs/
+wandb/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.safetensors
